@@ -1,0 +1,108 @@
+.target {
+    background-color:white;
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 41, 73);
+    font-size: 5rem;
+    border-color: blueviolet;
+    border-style: solid;
+    border-radius: 70px;
+}
+
+
+.options {
+    background-color: aqua;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    border-radius:100px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: block;
+    padding: 16px;
+    float: left;
+    width: 150px;
+    padding: 20px;
+    font-size:3rem;
+    margin: 10px;
+}
+
+#red{
+    color:red
+}
+
+#green{
+    color:green
+}
+
+#yellow{
+    color : yellow
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    background: none;
+    border: 4px solid rgb(80, 5, 5);
+    font-family: inherit;
+    color: inherit;
+    font-size: 5rem;
+    padding: 2.5rem;
+    width: 10rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 30px;
+}
+
+.click{
+    padding: 50px;
+    font-size: 3rem;
+    border-radius: 30px;
+    color: aqua;
+    background-color: black;
+}
+
+.reset{
+    margin-left: 70px;
+    padding: 50px;
+    font-size: 3rem;
+    border-radius: 30px;
+    color: aqua;
+    background-color: black;
+}
+
+.reset:hover{
+    background-color: aliceblue;
+    color:black ;
+    transition: 0.3s;
+}
+
+.click:hover{
+    background-color: aliceblue;
+    color:black ;
+    transition: 0.3s;
+}
